@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.location{
+    color: blue;
+    position: sticky;
+    margin: 0 auto; 
+    display: inline-block;
+    
+}
+
+
+.dropbtn {
+    background-color:aqua;
+    color: black;
+    padding: 10;
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+    position: relative;
+    border-radius: 70%;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+ 
+  .dropdown-content {
+    display: none;
+    position: sticky;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Style the walking icon */
+  .fa-walking {
+    position: absolute;
+    top: 18px;
+    right: 10px;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+
+  
